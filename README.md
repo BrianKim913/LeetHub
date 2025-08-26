@@ -20,6 +20,6 @@ This repository contains my LeetCode solutions, automatically synced using [Leet
 
 - Solutions are automatically pushed after successful submission
 - Each solution includes time and space complexity analysis
-- So
+- This repository only contains solutions submitted after August 26, 2025.
 
 Last Updated: August 26, 2025
