@@ -14,12 +14,6 @@
  * }
  */
 class Solution {
-    public boolean check(TreeNode left, TreeNode right){
-        if(left==null && right==null)  return true; 
-        if(left==null || right== null) return false;
-        if(left.val==right.val)return true;
-        return false;
-    }
 
     public boolean bfs(TreeNode left, TreeNode right){
         if(left == null && right == null) return true;
@@ -32,10 +26,6 @@ class Solution {
         TreeNode leftR = leftRoot.right;
         TreeNode rightL = rightRoot.left;
         TreeNode rightR = rightRoot.right;
-
-        if(check(leftL, rightR)!=true || check(leftR, rightL)!= true) return false;
-
-
         return bfs(leftL, rightR) && bfs(leftR, rightL);
     }
     public boolean isSymmetric(TreeNode root) {
@@ -46,7 +36,8 @@ class Solution {
         TreeNode left = root.left;
         TreeNode right = root.right;
 
-        if(check(left,right)!=true) return false;
+        if(left==null && right==null)  return true; 
+        if(left==null || right== null) return false;
 
         return bfs(left,right);
     }
