@@ -4,8 +4,6 @@
 
 This repository contains my LeetCode solutions, automatically synced using [LeetHub](https://github.com/QasimWani/LeetHub) - a Chrome extension that pushes your LeetCode submissions to GitHub.
 
-**Started Journey:** August 26, 2025 🎯
-
 ![LeetCode Stats](https://leetcode.card.workers.dev/briankim913?theme=auto&font=baloo&extension=null)
 
 ## 🛠️ Languages Used
