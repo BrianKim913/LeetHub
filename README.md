@@ -2,7 +2,7 @@
 
 ## 📝 About
 
-This repository contains my LeetCode solutions, automatically synced using [LeetHub](https://github.com/QasimWani/LeetHub) - a Chrome extension that pushes your LeetCode submissions to GitHub.
+This repository contains my LeetCode solutions, automatically synced using [LeetHub](https://github.com/QasimWani/LeetHub).
 
 ![LeetCode Stats](https://leetcode.card.workers.dev/briankim913?theme=auto&font=baloo&extension=null)
 
@@ -20,4 +20,4 @@ This repository contains my LeetCode solutions, automatically synced using [Leet
 - Each solution includes time and space complexity analysis
 - This repository only contains solutions submitted after August 26, 2025.
 
-Last Updated: August 26, 2025
+Last Updated: September 8, 2025
