@@ -29,17 +29,10 @@ class Spreadsheet {
             if(c=='+') break;
             idx++;
         }
-        int X =-1;
-        int Y =-1;
-
-        if(!map.containsKey(formula.charAt(1))){
-            X = Integer.valueOf(formula.substring(1,idx));
-        }
-        if(!map.containsKey(formula.charAt(idx+1))){
-            Y = Integer.valueOf(formula.substring(idx+1));
-        }
-        X = (X!=-1) ? X:grid[Integer.valueOf(formula.substring(2,idx))-1][map.get(formula.charAt(1))];
-        Y = (Y!=-1) ? Y:grid[Integer.valueOf(formula.substring(idx+2))-1][map.get(formula.charAt(idx+1))];
+        int X;
+        int Y;
+        X = (!map.containsKey(formula.charAt(1))) ? Integer.valueOf(formula.substring(1,idx)):grid[Integer.valueOf(formula.substring(2,idx))-1][map.get(formula.charAt(1))];
+        Y = (!map.containsKey(formula.charAt(idx+1))) ? Integer.valueOf(formula.substring(idx+1)):grid[Integer.valueOf(formula.substring(idx+2))-1][map.get(formula.charAt(idx+1))];
         return X+Y;
     }
 }
